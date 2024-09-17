@@ -13,17 +13,20 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("Give me a number: ");
+		System.out.println("Name an animal:  ");
+		String name = in.nextLine(); 
+		System.out.println("What are you going to name the Animal: ");
+		String username = in.nextLine();
+		System.out.println("How old is the Animal?:  ");
 		int num1 = in.nextInt();
-		System.out.println("Give me a place: ");
 		//flush
-		in.nextLine();
-		String place = in.nextLine();
-;		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
-
+		in.nextLine(); 
+		System.out.println("What is their ethnicity: ");
+		String country = in.nextLine();
+		System.out.println("Where does it live: ");
+		String live = in.nextLine();
+		System.out.println("You enter a Zoo and you see a, "+name+" when you see it you decide to give it a name, and you name it "+username+" you read more information about "+username+". You find out that he is "+numb+" ");
+		
 	}
 
 }
