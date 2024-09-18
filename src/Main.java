@@ -13,19 +13,20 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Name an animal:  ");
+		System.out.println("Name a pet:  ");
 		String name = in.nextLine(); 
-		System.out.println("What are you going to name the Animal: ");
+		System.out.println("Give a Name: ");
 		String username = in.nextLine();
-		System.out.println("How old is the Animal?:  ");
+		System.out.println("Give a number  ");
 		int num1 = in.nextInt();
-		//flush
-		in.nextLine(); 
-		System.out.println("What is their ethnicity: ");
-		String country = in.nextLine();
-		System.out.println("Where does it live: ");
-		String live = in.nextLine();
-		System.out.println("You enter a Zoo and you see a, "+name+" when you see it you decide to give it a name, and you name it "+username+" you read more information about "+username+". You find out that he is "+numb+" ");
+		System.out.println("Give me a different number");
+		double price = in.nextDouble(); 
+		in.nextLine();
+		System.out.println("Give a reason why you want a pet: ");
+		String reason = in.nextLine();
+		System.out.println("Name a food ");
+		String food = in.nextLine();
+		System.out.println("One day, you decide to go to a pet shop. You see many pets you like. After, you see these pets you decide to choose a "+name+" as your pet. Then, you decide to give it a name and you name it "+username+". After you read more information about "+username+", you find out that he is "+num1+" years old. The price for this pet is $"+price+". You go to the cashier and they asked for one reason you want the pet and you say "+reason+" as one of your reasons why you want the pet. Then, you decide to bring it back home and feed "+username+" "+food+".");
 		
 	}
 
